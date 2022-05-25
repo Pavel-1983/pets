@@ -1,0 +1,231 @@
+html {
+        scroll-behavior: smooth; 
+      }
+* {
+        box-sizing: border-box;
+      }
+body{
+        width: 1280px;
+        margin: 0 auto;
+}
+.container{
+        width:1200px;
+        margin: 0 auto;
+        height:3796px;
+       
+}
+.startScreen{
+        width: 1200px;
+        height: 980px;
+        background-image: url('../../assets/images/start-screen-gradient-background.png');
+}
+.header{
+        width: 100%;
+        height: 60px;
+        /* display: flex; */
+        color: white;
+       /* flex-direction: row;  */
+      
+       
+}
+.logo{
+        
+        padding-left: 40px;
+        width: auto;
+}
+.logo>h1{
+        padding-top: 55px;
+        margin-bottom: 1px;
+        font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+color: #F1CDB3;
+      
+}
+.span_logo{
+        font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+}
+.nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin-top: -30px;
+      }
+      .nav-list:hover{
+              cursor: pointer;
+      }
+      .nav-item{
+        /* margin-left: 35px; */
+        margin-left: 3%;
+font-family: Arial;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #CDCDCD;
+
+      }
+      .first{
+              text-decoration: underline;
+              text-decoration-color: white;
+            
+      }
+      .last{
+              margin-right: 40px;
+        
+      }
+      .imgHeader{
+              margin-left: 470px;
+              margin-top: 65px;
+      }
+      .not_only_people{
+              font-size: 34px;
+              margin-left: 40px;
+              margin-top: -595px;
+              margin-bottom: 50px;
+      }
+      .not_only_paragraf{
+        font-size: 15px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+      }
+      .button{
+              display: inline-block;
+        width: 207px;
+        margin-left: 40px;
+        border-radius: 40px;
+        height: 50px;
+        background-color: #F1CDB3;
+      }
+      .button:hover{
+              cursor: pointer;
+      }
+
+/* About */
+#about{
+        display: flex;
+     margin-top: -70px;
+     width: 100%;
+     height: 588px;
+     background-color: #FFFFFF;  
+     flex-wrap: nowrap; 
+}
+.about_content{
+        padding-left: 120px;
+        padding-right: 175px;
+        padding-top: 80px;
+}
+.img_about{
+        padding-top: 110px;
+        margin-left: 220px;
+}
+.about_h{
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0.06em;
+text-align: left;
+
+}
+.about_p{
+font-family: Arial;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+text-align: justify;
+
+}
+#our_friends{
+        /* display: flex;
+        justify-content: space-around; */
+        width: 100%;
+        height: 877px;
+        background: #F6F6F6;
+}
+.block_pet{
+        display: flex;
+        justify-content: space-around;
+        /* width: 435px;
+        height: 1200px;
+       */
+}
+.border_img1{
+        border: 1px solid red;
+        width: 52px;
+        height:52px;
+        border-radius: 50%;
+}
+.our_friends_arrow1{
+        height: 6px;
+        width: 14px;
+        margin-left: 15px;
+        margin-top: 23px;
+        border-radius: 0;
+        /* border: 1px solid red;
+        padding: 52px; */
+        
+}
+.our_friends_arrow2{
+        height: 6px;
+        width: 14px;
+        left: 33px;
+        top: 29px;
+        border-radius: 0px;
+        
+        
+}
+.our_friends_h{
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0.06em;
+text-align: center;
+}
+.first_friends{
+        /* margin-top: 230px; */
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+ background-color:#FAFAFA;
+ 
+height: 435px;
+width: 270px;
+/* left: 105px;
+top: 0px; */
+/* border-radius: 9px; */
+
+}
+.info_pet{
+        font-family: Georgia;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.06em;
+text-align: center;
+
+}
+.button_pets{
+        height: 52px;
+width: 187px;
+left: 0px;
+top: 0px;
+border-radius: 100px;
+padding: 15px, 45px, 15px, 45px;
+border: 2px solid #F1CDB3;
+background-color: white;
+
+}
